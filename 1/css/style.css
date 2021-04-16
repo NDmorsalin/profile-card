@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container {
+    width: 350px;
+    background-color: #323650;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 6px 15px 24px 10px rgba(0, 0, 0, 0.171);
+}
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+}
+
+.right span {
+    margin-left: 10px;
+}
+
+.middle {
+    text-align: center;
+    padding: 0 40px;
+}
+
+.img {
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.title {
+    color: #fff;
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.tt-ds {
+    color: rgb(173, 168, 180);
+    font-size: 18px;
+}
+
+.dis {
+    color: rgb(206, 202, 202);
+    margin-top: 15px;
+    font-size: 18px;
+}
+
+.hire {
+    display: inline-block;
+    margin: 30px 0;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    background-image: linear-gradient(-90deg, rgb(247, 7, 175), rgb(30, 7, 240));
+}
+
+.hr {
+    border-bottom: 1px solid #42476b;
+}
+
+.socile ul {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.i-box {
+    text-align: center;
+}
+
+.icon {
+    color: #fff;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: 5px 14px 20px -10px rgba(0, 0, 0, 0.719);
+    box-shadow: 5px 14px 20px -10px rgba(0, 0, 0, 0.658);
+    width: 70px;
+    height: 70px;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.c1 {
+    background-color: #e00df3;
+}
+
+.c2 {
+    background-color: #0F72FD;
+}
+
+.c3 {
+    background-color: #6352EE;
+}
+
+.tex {
+    margin-top: 20px;
+}
+
+.num {
+    font-size: 28px;
+    color: #fff;
+}
+
+.flw {
+    color: rgb(185, 186, 192);
+    font-size: 14px;
+    font-weight: 600;
+}
